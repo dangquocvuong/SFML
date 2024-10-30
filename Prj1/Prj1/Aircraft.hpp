@@ -15,7 +15,7 @@ class Aircraft : public Entity {
 
 
 	public:
-		explicit			Aircraft(Type type);
+		explicit			Aircraft(Type type, const TextureHolder& textures);
 		virtual void		drawCurrent(sf::RenderTarget& target, sf::RenderStates states) const;
 
 	private:

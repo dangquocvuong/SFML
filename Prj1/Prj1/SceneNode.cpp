@@ -32,4 +32,7 @@ void SceneNode::draw(sf::RenderTarget& target, sf::RenderStates& states) const
 	}
 }
 
-void SceneNode::drawCurrent(sf::RenderTarget& target, sf::RenderStates states) const {}
+void SceneNode::drawCurrent(sf::RenderTarget& target, sf::RenderStates states) const 
+{
+	//
+}
